@@ -1,0 +1,16 @@
+{
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "source/**/*.ts"
+  ],
+  "coverageProvider": "v8",
+  "coverageReporters": [
+    "text"
+  ],
+  "testRegex": "test/(.*).test.ts$",
+  "transform": {
+    "^.+\\.tsx?$": [
+      "@swc/jest"
+    ]
+  }
+}

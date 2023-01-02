@@ -2,7 +2,24 @@
   "name": "@autosoft/jest-preset",
   "version": "1.0.0",
   "description": "A base for projects that use Jest.",
-  "private": true,
+  "author": "Connor White",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autosoftoss/jest-preset.git"
+  },
+  "keywords": [
+    "jest",
+    "preset",
+    "testing",
+    "test",
+    "unit",
+    "auto",
+    "autosoft",
+    "autorepo",
+    "swc"
+  ],
   "files": [
     "jest-preset.json"
   ],

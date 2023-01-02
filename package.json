@@ -1,7 +1,7 @@
 {
   "name": "@autosoft/jest-preset",
   "version": "1.0.0",
-  "description": "A base for projects that use Jest.",
+  "description": "A base to easily run Jest with SWC.",
   "author": "Connor White",
   "license": "MIT",
   "private": false,

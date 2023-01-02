@@ -1,6 +1,6 @@
 {
   "name": "@autosoft/jest-preset",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A base for projects that use Jest.",
   "author": "Connor White",
   "license": "MIT",
@@ -24,7 +24,8 @@
     "jest-preset.json"
   ],
   "scripts": {
-    "lint": "jsonlint --sort-keys --in-place jest-preset.json"
+    "lint": "jsonlint --sort-keys --in-place jest-preset.json",
+    "release": "yarn version"
   },
   "dependencies": {
     "@swc/core": "^1.3.24",

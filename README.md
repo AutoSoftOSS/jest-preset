@@ -36,7 +36,6 @@ In your `package.json` file:
 
 ```json
 {
-  ...,
   "jest": {
     "preset": "@autosoft/jest-preset"
   }

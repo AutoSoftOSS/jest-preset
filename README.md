@@ -75,6 +75,10 @@ All tests will need to be in the `test` directory and end with `.test.ts`. Addit
 - [@swc/jest](https://www.npmjs.com/package/@swc/jest): Swc integration for jest
 - [jest](https://www.npmjs.com/package/jest): Delightful JavaScript Testing.
 
+<h3 id="dev-dependencies">Dev Dependencies</h3>
+
+- [jsonlint](https://www.npmjs.com/package/jsonlint): Validate JSON
+
 <br />
 
 

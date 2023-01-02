@@ -12,6 +12,16 @@
 
 <blockquote align="center">A base to easily run Jest with SWC.</blockquote>
 
+_If I should maintain this repo, please ⭐️_
+<a href="https://github.com/autosoftoss/jest-preset">
+  <img align="right" alt="GitHub stars" src="https://img.shields.io/github/stars/autosoftoss/jest-preset?label=%E2%AD%90%EF%B8%8F&style=social">
+</a>
+
+_DM me on [Twitter](https://twitter.com/bconnorwhite) if you have questions or suggestions._
+<a href="https://twitter.com/bconnorwhite">
+  <img align="right" alt="Twitter Follow" src="https://img.shields.io/twitter/url?label=%40bconnorwhite&style=social&url=https%3A%2F%2Ftwitter.com%2Fbconnorwhite">
+</a>
+
 ---
 
 This package bundles [Jest](https://jestjs.io/) and [SWC](https://swc.rs/) together, providing an fast and easy way to run tests.
@@ -42,7 +52,9 @@ In your `package.json` file:
 }
 ```
 
-Now to run jest, just run `yarn jest` or `npm run jest`.
+### Jest
+
+Now to run jest, run `yarn jest` or `npm run jest`.
 
 ## Jest Preset
 

@@ -7,6 +7,10 @@
   "coverageReporters": [
     "text"
   ],
+  "extensionsToTreatAsESM": [
+    ".ts",
+    ".tsx"
+  ],
   "moduleNameMapper": {
     "^#(.*)": "$1",
     "^(\\.{1,2}/.*)\\.js$": "$1"

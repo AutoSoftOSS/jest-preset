@@ -18,7 +18,8 @@
     "auto",
     "autosoft",
     "autorepo",
-    "swc"
+    "swc",
+    "config"
   ],
   "files": [
     "jest-preset.json"

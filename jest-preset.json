@@ -8,7 +8,7 @@
     "text"
   ],
   "moduleNameMapper": {
-    "^#(.*)": "<rootDir>/node_modules/$1",
+    "^#(.*)": "$1",
     "^(\\.{1,2}/.*)\\.js$": "$1"
   },
   "testRegex": "test/(.*).test.ts$",

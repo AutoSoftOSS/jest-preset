@@ -30,6 +30,8 @@ _DM me on [Twitter](https://twitter.com/bconnorwhite) if you have questions or s
 
 This package bundles [Jest](https://jestjs.io/) and [SWC](https://swc.rs/) together, providing an fast and easy way to run tests.
 
+It comes preconfigured to work with TypeScript and ESM.
+
 ## Installation
 
 ```sh
@@ -74,10 +76,22 @@ All tests will need to be in the `test` directory and end with `.test.ts`. Addit
   "coverageReporters": [
     "text"
   ],
+  "extensionsToTreatAsESM": [
+    ".ts",
+    ".tsx"
+  ],
+  "moduleNameMapper": {
+    "^#(.*)": "$1",
+    "^(\\.{1,2}/.*)\\.js$": "$1"
+  },
   "testRegex": "test/(.*).test.ts$",
   "transform": {
     "^.+\\.tsx?$": [
-      "@swc/jest"
+      "@swc/jest", {
+        "jsc": {
+          "target": "es2019"
+        }
+      }
     ]
   }
 }
@@ -93,17 +107,15 @@ All tests will need to be in the `test` directory and end with `.test.ts`. Addit
 - [@swc/jest](https://www.npmjs.com/package/@swc/jest): swc integration for jest
 - [jest](https://www.npmjs.com/package/jest): Delightful JavaScript Testing.
 
-
 <br />
 
 <h3>Dev Dependencies</h3>
 
 - [jsonlint](https://www.npmjs.com/package/jsonlint): Validate JSON
 
-
 <br />
 
 <h2 id="license">License <a href="https://opensource.org/licenses/MIT"><img align="right" alt="license" src="https://img.shields.io/npm/l/@autosoft/jest-preset.svg"></a></h2>
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT) - _The MIT License_
 <!--END FOOTER-->

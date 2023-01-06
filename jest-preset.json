@@ -18,7 +18,11 @@
   "testRegex": "test/(.*).test.ts$",
   "transform": {
     "^.+\\.tsx?$": [
-      "@swc/jest"
+      "@swc/jest", {
+        "jsc": {
+          "target": "es2019"
+        }
+      }
     ]
   }
 }

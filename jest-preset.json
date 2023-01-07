@@ -7,7 +7,7 @@
   "coverageReporters": [
     "text"
   ],
-  "extensionsToTreatAsESM": [
+  "extensionsToTreatAsEsm": [
     ".ts",
     ".tsx"
   ],

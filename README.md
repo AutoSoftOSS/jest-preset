@@ -76,7 +76,7 @@ All tests will need to be in the `test` directory and end with `.test.ts`. Addit
   "coverageReporters": [
     "text"
   ],
-  "extensionsToTreatAsESM": [
+  "extensionsToTreatAsEsm": [
     ".ts",
     ".tsx"
   ],
